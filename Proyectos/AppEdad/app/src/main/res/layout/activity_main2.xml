@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/ic_biberon"
+    >
+
+    <ImageView
+        android:id="@+id/imgBebe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bebe"
+        android:layout_marginTop="100sp"
+        />
+
+    <TextView
+        android:id="@+id/txtSuma1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBebe"
+        android:layout_marginLeft="120sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/txtSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBebe"
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/txtSuma2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBebe"
+        android:layout_marginLeft="260sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/edtResultadoS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSuma"
+        android:layout_margin="70sp"
+        android:inputType="number"
+        android:hint="Ingrese el resultado de la Suma"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/txtResultadoS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtResultadoS"
+        android:layout_margin="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="-----"
+        android:textSize="30sp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnValidarS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultadoS"
+        android:text="Validar"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:inputType="number"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnExit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnValidarS"
+        android:layout_marginLeft="250sp"
+        android:text="SALIR"
+
+        />
+
+
+</RelativeLayout>

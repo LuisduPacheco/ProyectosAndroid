@@ -41,12 +41,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtNum2"
-        android:text="..."
-        android:layout_marginTop="20sp"
-        android:textSize="40sp"
-        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginTop="20sp"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/btnSumar"

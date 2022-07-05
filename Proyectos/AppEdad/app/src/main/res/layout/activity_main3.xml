@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/ic_auto"
+    >
+
+    <ImageView
+        android:id="@+id/imgAdulto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_adulto"
+        android:layout_marginTop="100sp"
+        />
+
+    <TextView
+        android:id="@+id/txtProducto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAdulto"
+        android:layout_marginLeft="120sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/Producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAdulto"
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/txtProducto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAdulto"
+        android:layout_marginLeft="260sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="100sp"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/edtResultadoP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Producto"
+        android:layout_margin="70sp"
+        android:inputType="number"
+        android:hint="Ingrese el resultado de la multiplicación"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtResultadoP"
+        android:layout_margin="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="-----"
+        android:textSize="30sp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnValidarP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:text="Validar"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:inputType="number"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnExit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnValidarP"
+        android:layout_marginLeft="250sp"
+        android:text="SALIR"
+
+        />
+
+</RelativeLayout>
