@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#142270"
+    >
+
+    <TextView
+        android:id="@+id/txtPoemas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poemas de..."
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="#FF9800"
+        />
+    <TextView
+        android:id="@+id/txtautor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="José Batres Montúfar"
+        android:textColor="#D88100"
+        android:textSize="30sp"
+        android:layout_marginLeft="50sp"
+        android:layout_below="@+id/txtPoemas1"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20sp"
+            >
+
+            <ImageView
+                android:id="@+id/imgVolcan"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_volcan"
+                />
+            <TextView
+                android:id="@+id/txtTitulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volcan del agua"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaUno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema1"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/imgCuento"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_cuento"
+                />
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuento"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaDos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema2"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:id="@+id/imgPienso"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_pienso"
+                />
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yo pienso en ti"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaTres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema3"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/btnRegresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:textColor="#E6E9EC"
+                android:backgroundTint="#C3872E"
+                android:textSize="20sp"
+                android:layout_margin="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Espacio"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+    
+</LinearLayout>

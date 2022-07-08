@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#142270"
+    >
+
+    <TextView
+        android:id="@+id/txtPoemas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poemas de..."
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="#FF9800"
+        />
+    <TextView
+        android:id="@+id/txtautor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROMANCE"
+        android:textColor="#D88100"
+        android:textSize="30sp"
+        android:layout_marginLeft="140sp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20sp"
+            >
+
+            <ImageView
+                android:id="@+id/imgEncontre"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_encontre"
+                />
+            <TextView
+                android:id="@+id/txtTitulo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Te encontré "
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Cristian Gramajo"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaCuatro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema4"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/imgPoeta"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_poeta"
+                />
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El poeta y el poema"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Luis de Lión"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaCinco"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema5"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:id="@+id/imgRomance"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_romance"
+                />
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Jose Batres Montufar"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaSeis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema6"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/btnRegresa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:textColor="#E6E9EC"
+                android:backgroundTint="#C3872E"
+                android:textSize="20sp"
+                android:layout_margin="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Espacio"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

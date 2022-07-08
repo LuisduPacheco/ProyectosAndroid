@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#142270"
+    >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poemas de Guatemala!"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/imgPoema"
+        android:textStyle="italic"
+        android:textColor="#FF9800"
+        />
+
+    <Button
+        android:id="@+id/btnLeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"
+        android:text="Un autor"
+        android:textColor="#E6E9EC"
+        android:backgroundTint="#C3872E"
+        android:textSize="25sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgPoema"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:src="@drawable/ic_poema"
+        android:layout_marginTop="80sp"
+        />
+
+    <Button
+        android:id="@+id/btnLeer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLeer"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:text="Romance"
+        android:textColor="#E6E9EC"
+        android:backgroundTint="#C3872E"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnLeer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLeer1"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:text="vARIADOS"
+        android:textColor="#E6E9EC"
+        android:backgroundTint="#C3872E"
+        android:textSize="25sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyAppNoticieroScrollView</string>
+
+    <string name="titulo">
+        Noticiero \"El Momento\"
+    </string>
+
+    <string name="noticia1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare interdum placerat. Integer eget sem eget dolor dictum faucibus eget et ante. Praesent quis gravida enim. Maecenas in congue purus. Vivamus varius diam et eros finibus pretium. Aliquam erat volutpat. Ut varius, eros eget pellentesque luctus, enim enim sollicitudin urna, id varius nisl libero id justo.
+
+Sed laoreet justo eu laoreet rhoncus. Integer non placerat ligula. Nulla facilisi. Integer imperdiet sagittis elementum. Maecenas dapibus cursus leo, vel egestas purus dignissim non. Donec et sem eu nibh rhoncus tincidunt sodales sit amet lorem. Mauris rutrum, dui a convallis bibendum, libero nulla pharetra augue, vel finibus velit nulla sit amet augue. Pellentesque rutrum, turpis sagittis porttitor lacinia, felis ligula molestie sem, eget condimentum metus arcu eget purus. Mauris vel sapien diam.
+
+Nunc vitae commodo dolor. Proin auctor nisl nec augue consequat laoreet. Suspendisse tempor, arcu nec pretium tincidunt, dolor nisl viverra ipsum, eu consequat leo arcu ac justo. Ut ac dui vehicula, ultricies nulla eu, ultricies magna. Duis cursus metus a consequat tincidunt. Morbi elementum venenatis mi, eget lobortis tortor. Sed cursus turpis in ante lacinia vulputate. Maecenas ligula sem, interdum eu eleifend at, sollicitudin sed tellus. Donec ullamcorper sed velit sed semper. Cras sit amet est eget dolor convallis rhoncus nec eu elit.
+
+Vestibulum sed ante viverra, commodo nisi mollis, fringilla tellus. Nam eget nibh eu lectus ornare egestas sed et lorem. Nunc nec leo erat. Pellentesque tempor est vel lorem condimentum, vel lacinia nibh dapibus. Phasellus viverra erat turpis, a varius sapien placerat ut. Duis diam sem, suscipit quis commodo id, efficitur at ex. Fusce ut metus sit amet ante tempus iaculis eu vitae velit. Nullam metus metus, mollis eget bibendum pellentesque, convallis et odio. Curabitur elit enim, tempor nec pellentesque sed, rhoncus vitae enim. Nullam enim tellus, interdum eu ex ut, aliquet accumsan ipsum. Vestibulum volutpat velit mi, sit amet vulputate sapien volutpat nec. Nam eleifend leo et augue pellentesque pulvinar.
+        \n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare interdum placerat. Integer eget sem eget dolor dictum faucibus eget et ante. Praesent quis gravida enim. Maecenas in congue purus. Vivamus varius diam et eros finibus pretium. Aliquam erat volutpat. Ut varius, eros eget pellentesque luctus, enim enim sollicitudin urna, id varius nisl libero id justo.
+
+Sed laoreet justo eu laoreet rhoncus. Integer non placerat ligula. Nulla facilisi. Integer imperdiet sagittis elementum. Maecenas dapibus cursus leo, vel egestas purus dignissim non. Donec et sem eu nibh rhoncus tincidunt sodales sit amet lorem. Mauris rutrum, dui a convallis bibendum, libero nulla pharetra augue, vel finibus velit nulla sit amet augue. Pellentesque rutrum, turpis sagittis porttitor lacinia, felis ligula molestie sem, eget condimentum metus arcu eget purus. Mauris vel sapien diam.
+
+Nunc vitae commodo dolor. Proin auctor nisl nec augue consequat laoreet. Suspendisse tempor, arcu nec pretium tincidunt, dolor nisl viverra ipsum, eu consequat leo arcu ac justo. Ut ac dui vehicula, ultricies nulla eu, ultricies magna. Duis cursus metus a consequat tincidunt. Morbi elementum venenatis mi, eget lobortis tortor. Sed cursus turpis in ante lacinia vulputate. Maecenas ligula sem, interdum eu eleifend at, sollicitudin sed tellus. Donec ullamcorper sed velit sed semper. Cras sit amet est eget dolor convallis rhoncus nec eu elit.
+
+Vestibulum sed ante viverra, commodo nisi mollis, fringilla tellus. Nam eget nibh eu lectus ornare egestas sed et lorem. Nunc nec leo erat. Pellentesque tempor est vel lorem condimentum, vel lacinia nibh dapibus. Phasellus viverra erat turpis, a varius sapien placerat ut. Duis diam sem, suscipit quis commodo id, efficitur at ex. Fusce ut metus sit amet ante tempus iaculis eu vitae velit. Nullam metus metus, mollis eget bibendum pellentesque, convallis et odio. Curabitur elit enim, tempor nec pellentesque sed, rhoncus vitae enim. Nullam enim tellus, interdum eu ex ut, aliquet accumsan ipsum. Vestibulum volutpat velit mi, sit amet vulputate sapien volutpat nec. Nam eleifend leo et augue pellentesque pulvinar.
+        \n\n
+    </string>
+
+    <string name="noticia2">
+    asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        \n\n
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        asdjfklajsdklfjasdklfjaklsdjfklasdjfklasdjfklajsdklfjasdkñlfjñkasldjfkasdjfklñasjdfklajsdkfljasdklñfjasdklfj
+        \n\n
+    </string>
+
+
+
+</resources>

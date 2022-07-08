@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#142270"
+    >
+
+    <TextView
+        android:id="@+id/txtPoemas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poemas..."
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="#FF9800"
+        />
+    <TextView
+        android:id="@+id/txtautor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VARIADOS"
+        android:textColor="#D88100"
+        android:textSize="30sp"
+        android:layout_marginLeft="140sp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20sp"
+            >
+
+            <ImageView
+                android:id="@+id/imgAlas"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_alas"
+                />
+            <TextView
+                android:id="@+id/txtTitulo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alas de mi nombre"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Isabel de Los Ángeles Ruano"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaSiete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema7"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/imgQuetzal"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_quetzal"
+                />
+            <TextView
+                android:id="@+id/txtTitulo8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El quetzal es una lanza"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Otto Raúl Gonzáles"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaOcho"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema8"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:id="@+id/imgKaminal"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_kaminal"
+                />
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pequeña elegía a Kaminal Juyú"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#83BBE8"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtAutor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: Cesar Brañas"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPoemaNueve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Poema9"
+                android:justificationMode="none"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/btnRegresa3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:textColor="#E6E9EC"
+                android:backgroundTint="#C3872E"
+                android:textSize="20sp"
+                android:layout_margin="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Espacio"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

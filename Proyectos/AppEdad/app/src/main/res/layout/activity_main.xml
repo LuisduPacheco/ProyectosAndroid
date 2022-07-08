@@ -12,9 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bienvenido!"
-        android:layout_marginTop="35sp"
+        android:layout_marginTop="100sp"
         android:textSize="40sp"
-        android:layout_margin="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="180sp"
 
         />
     <EditText
