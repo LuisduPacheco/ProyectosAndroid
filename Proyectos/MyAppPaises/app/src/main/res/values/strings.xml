@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyAppPaises</string>
+    <string name="N1">Estados Unidos</string>
+    <string name="N2">Brasil</string>
+    <string name="N3">México</string>
+    <string name="N4">Colombia</string>
+    <string name="N5">Argentina</string>
+    <string name="N6">Canadá</string>
+    <string name="N7">Chile</string>
+    <string name="N8">Guatemala</string>
+    <string name="N9">Cuba</string>
+    <string name="N10">Puerto Rico</string>
+
+    <string name="P1">Población: 331,002,651</string>
+    <string name="P2">Población: 212,559,417</string>
+    <string name="P3">Población: 126,014,024</string>
+    <string name="P4">Población: 50,882,891</string>
+    <string name="P5">Población: 47,327,407</string>
+    <string name="P6">Población: 37,742,154</string>
+    <string name="P7">Población: 19,116,201</string>
+    <string name="P8">Población: 17,116,201</string>
+    <string name="P9">Población: 11,326,616</string>
+    <string name="P10">Población: 2,860,853</string>
+
+</resources>

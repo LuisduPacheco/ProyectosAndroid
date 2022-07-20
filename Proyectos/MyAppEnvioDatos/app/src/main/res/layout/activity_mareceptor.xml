@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAReceptor"
+    android:orientation="vertical"
+    android:background="#9CB6B6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos trasladados"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#041B30"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+
+        />
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+
+</LinearLayout>

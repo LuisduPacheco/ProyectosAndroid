@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#6FC88D"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Tipo de Año? "
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#DF4E4E"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="60sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Normal o Bisiesto) "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#055109"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="120sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgAnio"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:src="@drawable/ic_anio" />
+    <TextView
+        android:id="@+id/txtInstruccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese un año: "
+        android:textColor="#055109"
+        android:layout_below="@id/imgAnio"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="30sp"
+        android:textSize="30sp"
+        android:layout_margin="40sp"
+        />
+    <EditText
+        android:id="@+id/edtAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ejemplo: 2000 o 200"
+        android:layout_below="@id/txtInstruccion"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginBottom="50sp"
+        android:inputType="number"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtAnio"
+        android:backgroundTint="#DF4E4E"
+        android:layout_centerHorizontal="true"
+        android:text="Verificar"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
+        />
+
+</RelativeLayout>

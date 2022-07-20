@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAPais"
+    android:background="#9F9F9F"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imgPais"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="nombre país"
+        android:layout_margin="50sp"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/txtPoblacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Población país"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
