@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAAbstracto"
+    android:background="#0C7489"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arte disponible: "
+        android:textColor="#D7D9CE"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imgExp1"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_exp1"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/txtExp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exp1"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:textColor="#D7D9CE"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+            <Button
+                android:id="@+id/btnExp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="adquirir"
+                />
+
+            <ImageView
+                android:id="@+id/imgExp2"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_exp2"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/txtExp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exp2"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:textColor="#D7D9CE"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="adquirir"
+                android:id="@+id/btnExp2"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/imgExp3"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_exp3"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/txtExp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exp3"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:textColor="#D7D9CE"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="adquirir"
+                android:id="@+id/btnExp3"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

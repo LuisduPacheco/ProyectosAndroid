@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">AppArte</string>
+    <string name="abs1">
+        Nombre: Composición X
+        \n
+        Precio: Q 3,000.00
+        \n
+        Descripcion: pintura abstracta con
+                     colores intensos.
+    </string>
+    <string name="abs2">
+        Nombre: Primera Acuareala
+        \n
+        Precio: Q 1,000.00
+        \n
+        Descripcion: pintura abstracta inspirada
+                     en acuarelas.
+    </string>
+    <string name="abs3">
+        Nombre: Montañas y mar
+        \n
+        Precio: Q 2,500.00
+        \n
+        Descripcion: pintura abstracta con
+                     pinceladas de naturaleza.
+    </string>
+
+
+    <string name="real1">
+        Nombre: El origen del mundo
+        \n
+        Precio: Q 70,000.00
+        \n
+        Descripcion: pintura realismo con
+                     colores intensos.
+    </string>
+    <string name="real2">
+        Nombre: Less Casseurs
+        \n
+        Precio: Q 800.00
+        \n
+        Descripcion: pintura realismo inspirada
+                     en acuarelas.
+    </string>
+    <string name="real3">
+        Nombre: El Pensador
+        \n
+        Precio: Q 4,500.00
+        \n
+        Descripcion: pintura realismo con
+                     lineas y trazos simples.
+    </string>
+
+
+    <string name="hip1">
+        Nombre: Naxos
+        \n
+        Precio: Q 3,000.00
+        \n
+        Descripcion: pintura hiperrealismo con
+                     ideas y colores densos.
+    </string>
+    <string name="hip2">
+        Nombre: Babbouxas
+        \n
+        Precio: Q 1,000.00
+        \n
+        Descripcion: pintura hiperrealismo inspirada
+                     en los pensamientos.
+    </string>
+    <string name="hip3">
+        Nombre: Landscape
+        \n
+        Precio: Q 2,500.00
+        \n
+        Descripcion: pintura hiperrealismo con
+                     luces y sombras.
+    </string>
+
+    <string name="exp1">
+        Nombre: Viejo guitarrista
+        \n
+        Precio: Q 7,000.00
+        \n
+        Descripcion: pintura expresionismo con
+                     colores claros.
+    </string>
+    <string name="exp2">
+        Nombre: Retirantes
+        \n
+        Precio: Q 10,000.00
+        \n
+        Descripcion: pintura expresionismo inspirada
+                     en el gozo
+    </string>
+
+    <string name="exp3">
+        Nombre: Castillo y sol
+        \n
+        Precio: Q 500.00
+        \n
+        Descripcion: pintura expresionismo
+                    con trazos gruesos.
+    </string>
+
+    <string name="pop1">
+        Nombre: Latas de Sopa
+        \n
+        Precio: Q 3,000.00
+        \n
+        Descripcion: del arte pop una de las 
+                    obras más reconocidas.
+                     
+    </string>
+    <string name="pop2">
+        Nombre: M-Maybe
+        \n
+        Precio: Q 1,300.00
+        \n
+        Descripcion: pintura arte pop
+    </string>
+
+    <string name="pop3">
+        Nombre: Whaam ! 
+        \n
+        Precio: Q 1,000.00
+        \n
+        Descripcion: pintura arte pop
+                    detalles complejos.
+    </string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0C7489"
+    >
+
+    <ImageView
+        android:id="@+id/imgList"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/ic_list"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/imgList"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="20sp"
+        >
+        <TextView
+            android:id="@+id/txtNombreArte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arte moderno"
+            android:textSize="23sp"
+            android:textColor="#D7D9CE"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20sp"
+        android:text="Ver"
+        android:backgroundTint="#040404"
+        />
+
+</RelativeLayout>
