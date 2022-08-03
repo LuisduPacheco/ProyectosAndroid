@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppGrid</string>
+
+
+    <string name="c1">#FADBD8</string>
+    <string name="c2">#D2B4DE</string>
+    <string name="c3">#7FB3D5</string>
+    <string name="c4">#D6EAF8</string>
+    <string name="c5">#A9DFBF</string>
+    <string name="c6">#145A32</string>
+    <string name="c7">#F7DC6F</string>
+    <string name="c8">#DC7633</string>
+    <string name="c9">#FFFFFFFF</string>
+    <string name="c10">#B2BABB</string>
+    <string name="c11">#C0392B</string>
+    <string name="c12">#7D3C98</string>
+    <string name="c13">#21618C</string>
+    <string name="c14">#82E0AA</string>
+    <string name="c15">#D4AC0D</string>
+</resources>
