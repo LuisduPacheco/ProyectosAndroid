@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyAppListView</string>
+    <string name="app_name">List View - ToolBar</string>
 
     <string name="vocalA">
         Hola soy la vocal A
