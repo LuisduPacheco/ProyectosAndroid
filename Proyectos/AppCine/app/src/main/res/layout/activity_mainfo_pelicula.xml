@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAInfoPelicula"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Detalles de la Pelicula"
+        android:layout_margin="10sp"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/imgDetalles"
+        android:layout_width="140sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_lobo"
+        />
+    <TextView
+        android:id="@+id/txtNombreDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Detalles de la Pelicula"
+        android:layout_margin="10sp"
+        android:textColor="#014ba0"
+        />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tlId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#014ba0"
+        app:tabTextColor="@color/white"
+        />
+    <FrameLayout
+        android:id="@+id/flContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>

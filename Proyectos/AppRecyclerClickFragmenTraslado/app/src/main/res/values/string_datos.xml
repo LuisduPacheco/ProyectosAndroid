@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombreD1">
+        Smartphone
+    </string>
+    <string name="precioD1">
+        Q 5,000.00
+    </string>
+    <string name="detalle1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed maximus nunc.\n
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Curabitur rhoncus sollicitudin nisl. Pellentesque mollis elementum mi quis maximus. \n
+Etiam varius vulputate leo, ac eleifend metus malesuada quis. \n
+Cras non ligula vel diam aliquet posuere eget non nisi. Maecenas rutrum nisi nec urna ultrices aliquet. \n
+Pellentesque a leo massa. Nullam massa lectus, aliquam et ligula sit amet, \n
+venenatis facilisis lorem. Nullam sodales est scelerisque feugiat tempor.
+Nunc ut nunc sed enim malesuada tempus. Donec a suscipit elit.\n
+
+In vitae mauris ullamcorper, ultricies est non, suscipit est. Fusce id erat vulputate, interdum ante nec, suscipit dui.
+Pellentesque iaculis tempus dui,
+ at ornare libero porttitor sit amet. In hac habitasse platea dictumst. Vestibulum arcu sapien, fermentum nec lectus a,
+consectetur maximus tellus. Pellentesque vel turpis dui. Donec cursus ex sem, nec vestibulum neque varius semper.
+    </string>
+    <string name="especificacionesD1">
+        1.  Lorem ipsum dolor sit amet.\n
+2. Consectetur adipiscing elit.\n
+3. Aliquam maximus erat quis ante dictum efficitur.\n
+4. Nullam non sem et quam porta aliquet eget et nisl.\n
+5. Sed hendrerit sagittis orci.\n
+6. Elementum consequat nisi malesuada in.\n
+7. Nullam pretium consectetur lorem.\n
+8. Blandit mattis justo sodales eu.\n
+9. Praesent iaculis purus at justo tincidunt vehicula.\n
+10.    Morbi tincidunt convallis pretium.\n
+11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+15.    Mauris tempor vestibulum rutrum.\n
+16.    Nam laoreet lorem a ligula elementum laoreet.\n
+    </string>
+    <string name="nombreD2">
+        Laptop
+    </string>
+    <string name="precioD2">
+        Q 8,000.00
+    </string>
+    <string name="detalle2">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed maximus nunc.\n
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Curabitur rhoncus sollicitudin nisl. Pellentesque mollis elementum mi quis maximus. \n
+Etiam varius vulputate leo, ac eleifend metus malesuada quis. \n
+Cras non ligula vel diam aliquet posuere eget non nisi. Maecenas rutrum nisi nec urna ultrices aliquet. \n
+Pellentesque a leo massa. Nullam massa lectus, aliquam et ligula sit amet, \n
+venenatis facilisis lorem. Nullam sodales est scelerisque feugiat tempor.
+Nunc ut nunc sed enim malesuada tempus. Donec a suscipit elit.\n
+
+In vitae mauris ullamcorper, ultricies est non, suscipit est. Fusce id erat vulputate, interdum ante nec, suscipit dui.
+Pellentesque iaculis tempus dui,
+ at ornare libero porttitor sit amet. In hac habitasse platea dictumst. Vestibulum arcu sapien, fermentum nec lectus a,
+consectetur maximus tellus. Pellentesque vel turpis dui. Donec cursus ex sem, nec vestibulum neque varius semper.
+    </string>
+    <string name="especificacionesD2">
+         1.  Lorem ipsum dolor sit amet.\n
+2. Consectetur adipiscing elit.\n
+3. Aliquam maximus erat quis ante dictum efficitur.\n
+4. Nullam non sem et quam porta aliquet eget et nisl.\n
+5. Sed hendrerit sagittis orci.\n
+6. Elementum consequat nisi malesuada in.\n
+7. Nullam pretium consectetur lorem.\n
+8. Blandit mattis justo sodales eu.\n
+9. Praesent iaculis purus at justo tincidunt vehicula.\n
+10.    Morbi tincidunt convallis pretium.\n
+11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+15.    Mauris tempor vestibulum rutrum.\n
+16.    Nam laoreet lorem a ligula elementum laoreet.\n
+
+    </string>
+    <string name="nombreD3">
+        Auriculares
+    </string>
+    <string name="precioD3">
+        Q 300.00
+    </string>
+    <string name="detalle3">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed maximus nunc.\n
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Curabitur rhoncus sollicitudin nisl. Pellentesque mollis elementum mi quis maximus. \n
+Etiam varius vulputate leo, ac eleifend metus malesuada quis. \n
+Cras non ligula vel diam aliquet posuere eget non nisi. Maecenas rutrum nisi nec urna ultrices aliquet. \n
+Pellentesque a leo massa. Nullam massa lectus, aliquam et ligula sit amet, \n
+venenatis facilisis lorem. Nullam sodales est scelerisque feugiat tempor.
+Nunc ut nunc sed enim malesuada tempus. Donec a suscipit elit.\n
+
+In vitae mauris ullamcorper, ultricies est non, suscipit est. Fusce id erat vulputate, interdum ante nec, suscipit dui.
+Pellentesque iaculis tempus dui,
+ at ornare libero porttitor sit amet. In hac habitasse platea dictumst. Vestibulum arcu sapien, fermentum nec lectus a,
+consectetur maximus tellus. Pellentesque vel turpis dui. Donec cursus ex sem, nec vestibulum neque varius semper.
+    </string>
+    <string name="especificacionesD3">
+         1.  Lorem ipsum dolor sit amet.\n
+2. Consectetur adipiscing elit.\n
+3. Aliquam maximus erat quis ante dictum efficitur.\n
+4. Nullam non sem et quam porta aliquet eget et nisl.\n
+5. Sed hendrerit sagittis orci.\n
+6. Elementum consequat nisi malesuada in.\n
+7. Nullam pretium consectetur lorem.\n
+8. Blandit mattis justo sodales eu.\n
+9. Praesent iaculis purus at justo tincidunt vehicula.\n
+10.    Morbi tincidunt convallis pretium.\n
+11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+15.    Mauris tempor vestibulum rutrum.\n
+16.    Nam laoreet lorem a ligula elementum laoreet.\n
+
+    </string>
+    <string name="nombreD4">
+        SmartTV
+    </string>
+    <string name="precioD4">
+        Q 7,500.00
+    </string>
+    <string name="detalle4">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed maximus nunc.\n
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Curabitur rhoncus sollicitudin nisl. Pellentesque mollis elementum mi quis maximus. \n
+Etiam varius vulputate leo, ac eleifend metus malesuada quis. \n
+Cras non ligula vel diam aliquet posuere eget non nisi. Maecenas rutrum nisi nec urna ultrices aliquet. \n
+Pellentesque a leo massa. Nullam massa lectus, aliquam et ligula sit amet, \n
+venenatis facilisis lorem. Nullam sodales est scelerisque feugiat tempor.
+Nunc ut nunc sed enim malesuada tempus. Donec a suscipit elit.\n
+
+In vitae mauris ullamcorper, ultricies est non, suscipit est. Fusce id erat vulputate, interdum ante nec, suscipit dui.
+Pellentesque iaculis tempus dui,
+ at ornare libero porttitor sit amet. In hac habitasse platea dictumst. Vestibulum arcu sapien, fermentum nec lectus a,
+consectetur maximus tellus. Pellentesque vel turpis dui. Donec cursus ex sem, nec vestibulum neque varius semper.
+    </string>
+    <string name="especificacionesD4">
+         1.  Lorem ipsum dolor sit amet.\n
+2. Consectetur adipiscing elit.\n
+3. Aliquam maximus erat quis ante dictum efficitur.\n
+4. Nullam non sem et quam porta aliquet eget et nisl.\n
+5. Sed hendrerit sagittis orci.\n
+6. Elementum consequat nisi malesuada in.\n
+7. Nullam pretium consectetur lorem.\n
+8. Blandit mattis justo sodales eu.\n
+9. Praesent iaculis purus at justo tincidunt vehicula.\n
+10.    Morbi tincidunt convallis pretium.\n
+11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+15.    Mauris tempor vestibulum rutrum.\n
+16.    Nam laoreet lorem a ligula elementum laoreet.\n
+
+    </string>
+</resources>
