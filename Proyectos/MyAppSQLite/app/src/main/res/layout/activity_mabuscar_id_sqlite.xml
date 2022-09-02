@@ -24,9 +24,10 @@
             android:layout_height="wrap_content"
             android:hint="Ingrese el ID de la bebida a buscar"
             android:layout_margin="15sp"
-            android:inputType="text"
+            android:inputType="number"
             />
         <ImageButton
+            android:id="@+id/imgBBuscar"
             android:layout_width="35sp"
             android:layout_height="35sp"
             android:layout_margin="15sp"
@@ -38,14 +39,65 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10sp"
         >
-        <TextView
-
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre: "
-            android:textSize="25sp"
-            android:layout_margin="15sp"
-            />
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtCodigoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Código "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+                />
+            <TextView
+                android:id="@+id/txtNombreB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre: "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+
+                />
+            <TextView
+                android:id="@+id/txtSaborB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabor: "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+
+                />
+            <TextView
+                android:id="@+id/txtPresentacionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Presentacion: "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+
+                />
+            <TextView
+                android:id="@+id/txtTipoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo: "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+
+                />
+            <TextView
+                android:id="@+id/txtPrecioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: "
+                android:textSize="25sp"
+                android:layout_margin="15sp"
+
+                />
+
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 

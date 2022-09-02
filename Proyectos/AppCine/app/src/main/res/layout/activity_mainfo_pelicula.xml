@@ -7,6 +7,16 @@
     tools:context=".MAInfoPelicula"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#F9A825"
+        android:text="Comprar Boletos"
+        android:layout_margin="5sp"
+        android:backgroundTint="#014ba0"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,6 +27,7 @@
         android:layout_margin="10sp"
         android:textColor="@color/black"
         />
+
     <ImageView
         android:id="@+id/imgDetalles"
         android:layout_width="140sp"
@@ -47,7 +58,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
-
 
 
 </LinearLayout>

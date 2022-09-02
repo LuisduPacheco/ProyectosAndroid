@@ -4,10 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -19,7 +23,8 @@ public class MAInfoPelicula extends AppCompatActivity {
     private Fragment fragmentSinopsis, fragmentReparto, fragmentRecaudacion;
     private FragmentTransaction transaction;
     private TabLayout tabLayout;
-
+    //Para el Botón Comprar
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,12 +41,29 @@ public class MAInfoPelicula extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Sinopsis"));
         tabLayout.addTab(tabLayout.newTab().setText("Reparto"));
         tabLayout.addTab(tabLayout.newTab().setText("Recaudación"));
+        
+        button = findViewById(R.id.btnComprar);
 
         getSupportFragmentManager().beginTransaction().add(R.id.flContenedor,fragmentSinopsis).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.flContenedor,fragmentReparto).hide(fragmentReparto).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.flContenedor,fragmentRecaudacion).hide(fragmentRecaudacion).commit();
 
         this.getDatos();
+        this.obtenerInformacionAdicional();
+        this.navegacionTabLayout();
+        //Click en el Boton
+        this.clickCompra();
+
+    }
+
+    private void clickCompra() {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MAInfoPelicula.this, "Comprar...", Toast.LENGTH_SHORT).show();
+                comprar();
+            }
+        });
     }
 
     private void getDatos() {
@@ -82,35 +104,8 @@ public class MAInfoPelicula extends AppCompatActivity {
                         break;
                 }
                 transaction.commit();
-            }
 
-            //D RECIBIENDO INFO PARA LOS FRAGMENT
-            private void obtenerInformacionAdicional(){
-                Bundle bundle = getIntent().getExtras();
-                int sinop = bundle.getInt("sinop");
-                int prot = bundle.getInt("prot");
-                int rec = bundle.getInt("rec");
-                this.trasladarInfoFrgSinopsis(sinop);
-                this.trsladarInfoFrgRecauda(rec);
-                this.trasladarInfoFrgReparto(prot);
             }
-
-            private void trasladarInfoFrgSinopsis(int sinop){
-                Bundle bundle = new Bundle();
-                bundle.putInt("sinop",sinop);
-                fragmentSinopsis.setArguments(bundle);
-            }
-            private void trasladarInfoFrgReparto(int prot){
-                Bundle bundle = new Bundle();
-                bundle.putInt("prot",prot);
-                fragmentReparto.setArguments(bundle);
-            }
-            private void trsladarInfoFrgRecauda(int rec){
-                Bundle bundle = new Bundle();
-                bundle.putInt("rec",rec);
-                fragmentRecaudacion.setArguments(bundle);
-            }
-
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
@@ -121,7 +116,40 @@ public class MAInfoPelicula extends AppCompatActivity {
             public void onTabReselected(TabLayout.Tab tab) {
 
             }
+
         });
+    }
+
+    //D RECIBIENDO INFO PARA LOS FRAGMENT
+    private void obtenerInformacionAdicional(){
+        Bundle bundle = getIntent().getExtras();
+        int sinop = bundle.getInt("sinop");
+        int prot = bundle.getInt("prot");
+        int rec = bundle.getInt("rec");
+        this.trasladarInfoFrgSinopsis(sinop);
+        this.trsladarInfoFrgRecauda(rec);
+        this.trasladarInfoFrgReparto(prot);
+    }
+
+    private void trasladarInfoFrgSinopsis(int sinop){
+        Bundle bundle = new Bundle();
+        bundle.putInt("sinop",sinop);
+        fragmentSinopsis.setArguments(bundle);
+    }
+    private void trasladarInfoFrgReparto(int prot){
+        Bundle bundle = new Bundle();
+        bundle.putInt("prot",prot);
+        fragmentReparto.setArguments(bundle);
+    }
+    private void trsladarInfoFrgRecauda(int rec){
+        Bundle bundle = new Bundle();
+        bundle.putInt("rec",rec);
+        fragmentRecaudacion.setArguments(bundle);
+    }
+
+    public void comprar(){
+        Intent intent = new Intent(this, MABoletos.class);
+        startActivity(intent);
     }
 
 }
